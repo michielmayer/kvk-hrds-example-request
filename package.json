@@ -1,0 +1,19 @@
+{
+  "name": "kvk-hrds-example-request",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Michiel Mayer",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "soap": "git+https://github.com/michielmayer/node-soap.git",
+    "uuid": "^8.3.2"
+  }
+}
